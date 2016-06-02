@@ -1,0 +1,39 @@
+extends base
+
+block content
+   .container
+      p#intro Willkommen bei Shame Attacks! Am Schweizer Nationalfeiertag gehts los: Ab dem 1. August 2016 gibts 10 Wochen lang jede Woche eine Aufgabe zu erledigen. Und zwar eine, die bestmöglichst deine Komfortzone erweitert, aber dennoch noch machbar ist. 
+
+      p.list-header Beispiele
+      ul
+         li Bei schönem Wetter 10 Minuten lang mit Regenschirm rumlaufen. 
+         li Einem Fremden sein Horoskop vorlesen
+         li Im Migros fragen, wo der Migros sei
+
+      h2 Sammlung Aufgaben
+      p Falls du eine Idee für eine Aufgabe hast, schreib bitte einen Kommentar. Die definitiven Aufgaben werden spätestens eine Woche vor dem Start bekannt gegeben.  
+      
+      #disqus_thread
+
+
+block scripts
+   script.
+      /**
+      * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+      */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document
+      var s = d.createElement('script');
+
+      s.src = '//shameattacks.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();

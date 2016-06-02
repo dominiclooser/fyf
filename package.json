@@ -1,0 +1,14 @@
+{
+  "name": "shameattack",
+  "version": "0.1.0",
+  "devDependencies": {
+    "gh-pages": "latest",
+    "grunt": "latest",
+    "grunt-contrib-stylus": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-yaml": "latest",
+    "jit-grunt": "latest",
+    "matchdep": "latest",
+    "time-grunt": "latest"
+  }
+}
