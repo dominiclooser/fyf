@@ -5,6 +5,7 @@ config =
     'gh-pages':
         options:
             base: 'www'
+        src: '**/*'
     yaml:
         main:
             expand: true
