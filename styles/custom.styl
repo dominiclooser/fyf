@@ -8,14 +8,21 @@ body
     margin-top: unit
 
 .task
+    margin-bottom: unit
     padding: 0.5 * unit
-    background-color: #ddd
     p
         margin: 0
     h2 
         margin: 0
     .description
         margin-top: unit
+
+.task.current
+    background-color: #ddd
+
+.task:not(.current)
+    border: 2px solid #ddd
+    
 
 .page-header
     margin-top: unit

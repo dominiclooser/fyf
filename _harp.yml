@@ -4,7 +4,7 @@ globals:
     - title: Nach Uhrzeit fragen
       description: Frage eine fremde Person nach der Uhrzeit.
     - title: In der Migros nach Alkohol fragen
-      description: Frage in der Migros, wo das Bier sei.
+      description: Frage in der Migros, wo das Bier oder der Wein ist.
     - title: Strassenmusik
       description: Tanze zur Musik eines Strassenmusikers für mindestens eine Minute.
     - title: Kompliment

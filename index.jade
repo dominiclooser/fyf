@@ -4,13 +4,25 @@ block content
    .container
       p#intro Willkommen beim Übungsmarathon FYF! 10 Aufgaben, jede Woche eine neue, um deine sozialen Ängste zu konfrontieren und zu schwächen.  
 
-      - var task = tasks[0]
+      div Aktuelle Übung:
+
+      - var task1 = tasks[1]
+         .task.current
+            p Übung Zwei / Deadline 14. August 2016
+            h2 
+               span.fa.fa-beer
+               span= task1.title
+            p.description= task1.description
+
+      div Bisherige Übungen:
+
+      - var task0 = tasks[0]
          .task
             p Übung Eins / Deadline 7. August 2016
             h2 
                span.fa.fa-clock-o
-               span= task.title
-            p.description= task.description
+               span= task0.title
+            p.description= task0.description
 
 block scripts
    //- script.
