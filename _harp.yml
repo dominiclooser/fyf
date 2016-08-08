@@ -1,8 +1,62 @@
 ---
 globals:
   tasks:
-    - due: 8. Juli 2016
-      name: Buch in Tram
-    - due: 34. August
-      name: kasjfl
+    - title: Nach Uhrzeit fragen
+      description: Frage eine fremde Person nach der Uhrzeit.
+    - title: In der Migros nach Alkohol fragen
+      description: Frage in der Migros, wo das Bier sei.
+    - title: Strassenmusik
+      description: Tanze zur Musik eines Strassenmusikers für mindestens eine Minute.
+    - title: Kompliment
+      description: Mache einer fremden Person ein Kompliment.
+    - title: High 5
+      description: Gehe zu einer fremden Person und biete ihr per Gestik ein High 5 an.   
+    - title: Rolltreppe
+      description: Fahre eine Rolltreppe in der falschen Richtung.
+    - title: Nach 100 Franken fragen
+      description: Frage eine fremde Person um 100 Franken.
+    - title: Kompliment einfordern
+      description: Frage eine fremde Person, ob sie dir ein Kompliment machen kann.
+    - title: Easy Freezy
+      description: Freeze im Kontakt mit einer bekannten Person in einem überraschenden Moment. (Freeze = den Körper für eine gewisse Zeit gar nicht mehr bewegen.)
+    - title: Hardy Freeze
+      description: Freeze im Kontakt mit einer fremden Person (siehe oben)
+
+
+    # easy:
+    #   - title: Nach Uhrzeit fragen
+    #     description: Frage eine fremde Person nach der Uhrzeit.
+    #   - title: Nach Kleingeld fragen
+    #     description: Frage eine fremde Person um ein wenig Kleingeld.
+    #   - title: Eine bekannte Person nach einer gemeinsamen Unternehmung fragen.
+    #     description: Frage eine am Rand bekannte Person (z.B. Facebook, Whatsapp) nach einer Verabredung.
+    #   - title: Strassenmusik
+    #     description: Tanze zur Musik eines Strassenmusikers für mindestens eine Minute. 
+    #   - title: Mit Hund spazieren
+    #     description: Frage eine fremde Person mit Hund, ob er/sie dir den Hund für 10 Minuten ausleiht.
+    #   - title: Rolltreppe
+    #     description: Fahre eine Rolltreppe in der falschen Richtung.
+    #   - title: Kompliment
+    #     description: Mache einer fremden Person ein Kompliment.
+    #   - title: Augenkontakt
+    #     description: Halte fünf mal mit fremden Personen so lange Augenkontakt, bis sie wegschauen.
+
+    # hard:
+    #   - title: Nach 100 Franken fragen
+    #     description: Frage eine fremde Person um 100 Franken.
+    #   - title: High 5
+    #     description: Gehe zu einer fremden Person und biete ihr per Gestik ein High 5 an.
+    #   - title: Nach Jahr fragen
+    #     description: Frage eine fremde Person, welches Jahr wir gerade haben
+    #   - title: Nach Stadt fragen
+    #     description: Frage eine fremde Person, in welcher Stadt wir gerade sind.
+    #   - title: Fremden begrüssen
+    #     description: Gehe zu einer fremden Person, stelle dich vor und frage nach ihrem Namen
+    #   - title: Nach Kaffee-Date fragen
+    #     description: Frage eine fremde Person, ob sie mit dir einen Kaffee trinken möchte. 
+    #   - title: Hundebesitzer anmachen
+    #     description: 'Mache ein Kompliment an einen HundebesitzerIn in folgender Form, indem du zum Hund sagst: Du hast aber eineN sehr attraktive BesitzerIn'
+    #   - title: Eingeladen werden
+    #     description: Frage eine fremde Person des anderen Geschlechts in einer Bar/Club, ob er/sie dich auf einen Drink einlädt. 
+   
     
