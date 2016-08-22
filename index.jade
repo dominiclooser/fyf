@@ -4,27 +4,27 @@ block content
    .container
       p#intro Willkommen beim Übungsmarathon FYF! 10 Aufgaben, jede Woche eine neue, um deine sozialen Ängste zu konfrontieren und zu schwächen.  
 
-      div Aktuelle Übung:
+      h2 Aktuelle Übung:
 
-      - var task1 = tasks[1]
-         .task.current
-            p Übung Zwei / Deadline 14. August 2016
+      .task.current
+
+      h2 Bisherige Übungen:
+
+      for task, index in tasks.reverse()
+         - number = tasks.length - index
+         .task(data-number=number, class='hidden')
+            p Übung #{number}
             h2 
-               span.fa.fa-beer
-               span= task1.title
-            p.description= task1.description
-
-      div Bisherige Übungen:
-
-      - var task0 = tasks[0]
-         .task
-            p Übung Eins / Deadline 7. August 2016
-            h2 
-               span.fa.fa-clock-o
-               span= task0.title
-            p.description= task0.description
+               if task.icon
+                  span(class='fa' class='fa-' + task.icon)
+               span= task.title
+            p.description= task.description
 
 block scripts
+   script(src="https://code.jquery.com/jquery-2.2.4.min.js",  
+          integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=",  
+          crossorigin="anonymous")
+   script(src='main.js')
    //- script.
    //-    /**
    //-    * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.

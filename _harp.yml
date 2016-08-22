@@ -3,13 +3,15 @@ globals:
   tasks:
     - title: Nach Uhrzeit fragen
       description: Frage eine fremde Person nach der Uhrzeit.
+      icon: clock-o
     - title: In der Migros nach Alkohol fragen
       description: Frage in der Migros, wo das Bier oder der Wein ist.
+      icon: beer
     - title: Strassenmusik
       description: Tanze zur Musik eines Strassenmusikers für mindestens eine Minute.
     - title: Kompliment
       description: Mache einer fremden Person ein Kompliment.
-    - title: High 5
+    - title: High Five
       description: Gehe zu einer fremden Person und biete ihr per Gestik ein High 5 an.   
     - title: Rolltreppe
       description: Fahre eine Rolltreppe in der falschen Richtung.
@@ -19,8 +21,8 @@ globals:
       description: Frage eine fremde Person, ob sie dir ein Kompliment machen kann.
     - title: Easy Freezy
       description: Freeze im Kontakt mit einer bekannten Person in einem überraschenden Moment. (Freeze = den Körper für eine gewisse Zeit gar nicht mehr bewegen.)
-    - title: Hardy Freeze
-      description: Freeze im Kontakt mit einer fremden Person (siehe oben)
+    - title: Hard Freeze
+      description: Freeze im Kontakt mit einer fremden Person (siehe letzte Übung)
 
 
     # easy:
